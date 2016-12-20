@@ -9,5 +9,5 @@
     });
   }
 
-  generateModule('interact', { 'default': Interact });
+  generateModule('interactjs', { 'default': Interactjs });
 })();

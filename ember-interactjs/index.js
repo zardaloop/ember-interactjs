@@ -10,7 +10,7 @@ module.exports = {
     app.import(app.bowerDirectory + '/chartist/dist/interact.min.js.map');
     app.import('vendor/interact.min.js', {
       exports: {
-        Interact: ['default']
+        Interactjs: ['default']
       }
     });
   }
