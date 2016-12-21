@@ -1,0 +1,10 @@
+{
+  "name": "ember-interactjs",
+  "dependencies": {
+    "ember": "~2.10.0",
+    "ember-cli-shims": "0.1.3"
+  },
+  "devDependencies": {
+    "interactjs": "^1.2.8"
+  }
+}

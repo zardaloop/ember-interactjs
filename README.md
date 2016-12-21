@@ -1,2 +1,0 @@
-# Zardaloop
-# ember-interactjs
