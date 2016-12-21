@@ -1,8 +1,11 @@
 /*jshint node:true*/
 module.exports = {
-  normalizeEntityName: function() {},
+  description: '',
 
-  afterInstall: function(options) {
-    return this.addBowerPackageToProject('interactjs');
+  included: function(app) {
+    this._super.included(app);
+
+    app.import('bower_components/interactjs/dist/interact.min.js');
+    app.import('bower_components/interactjs/dist/interact.min.js.map');
   }
 };

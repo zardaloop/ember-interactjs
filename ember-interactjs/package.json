@@ -4,11 +4,10 @@
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
     "ember-addon",
-    "interactjs",
-    "svg"
+    "interacjs"
   ],
   "license": "MIT",
-  "author": "Zardaloop",
+  "author": "",
   "directories": {
     "doc": "doc",
     "test": "tests"

@@ -3,11 +3,11 @@ import Ember from 'ember';
 export default Ember.Component.extend({
   tagName: 'interact',
 
-  setupXbutton: function() {
+  setupInteractjs: function() {
     // ...
   }.on('didInsertElement'),
 
-  teardownXbutton: function() {
+  teardownInteractjs: function() {
     this.get('interactjs').destroy();
   }.on('willDestroyElement'),
 });
